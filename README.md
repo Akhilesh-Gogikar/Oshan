@@ -6,19 +6,19 @@
 
 # Table of Contents
 
-1. [Vision &amp; Philosophy](#vision--philosophy)
+1. [Vision & Philosophy](#vision--philosophy)
 2. [Product Overview](#product-overview)
-3. [Brand &amp; UX Direction](#brand--ux-direction)
+3. [Brand & UX Direction](#brand--ux-direction)
 4. [Wireframes for Major Screens](#wireframes-for-major-screens)
 5. [Tech Stack Overview](#tech-stack-overview)
 6. [System Architecture](#system-architecture)
 7. [Component-Level Design](#component-level-design)
-8. [Data Layer &amp; File Management](#data-layer--file-management)
+8. [Data Layer & File Management](#data-layer--file-management)
 9. [Environment Variables](#environment-variables)
-10. [Agile Epics, Stories &amp; Taskboard](#agile-epics-stories--taskboard)
-11. [Security &amp; Compliance](#security--compliance)
-12. [CI/CD &amp; Automation](#cicd--automation)
-13. [Contributor Guide &amp; Next Steps](#contributor-guide--next-steps)
+10. [Agile Epics, Stories & Taskboard](#agile-epics-stories--taskboard)
+11. [Security & Compliance](#security--compliance)
+12. [CI/CD & Automation](#cicd--automation)
+13. [Contributor Guide & Next Steps](#contributor-guide--next-steps)
 14. [Appendices: Data Dictionary, API Contracts, and More](#appendices)
 
 ---
@@ -66,7 +66,6 @@ Oshan is an **AI-powered infotainment app** for Indian equity market enthusiasts
   * Theme badges (e.g., ESG, Multibagger, Tech, Green Energy)
   * Avatars and visual flourishes for major sections
 * **Accessibility:**
-
   * WCAG AA for color contrast
   * Touch targets optimized for mobile; keyboard navigation for web
   * Font scaling, dark mode default
@@ -150,7 +149,7 @@ Oshan is an **AI-powered infotainment app** for Indian equity market enthusiasts
 
 ```
 +----------------- Theme: Green Energy -------------+
-|  [Back]         [Theme badge: ESG/Green]          |
+|  [Back]           [Theme badge: ESG/Green]        |
 |----------------------------------------------------|
 |   AI-generated Theme Overview                     |
 |----------------------------------------------------|
@@ -350,19 +349,19 @@ Oshan is an **AI-powered infotainment app** for Indian equity market enthusiasts
 # 10. Agile Epics, Stories & Taskboard
 
 ## EPIC 1: User Onboarding & Profile
- 
- * [x] Implement Google OAuth (Moved from Firebase to Expo AuthSession, integrated with backend endpoint)
- * [x] Five-step onboarding quiz, animated UI
- * [x] Store quiz results in MongoDB
- * [x] Personalization: themes/stocks based on profile
- 
- ## EPIC 2: Persistent Chat & Analyst Assistant
- 
- * [x] Always-on chat, context-aware per page
- * [x] Integrate chat UI with backend /rag\_query endpoint
- * [x] Qdrant retrieval and LLM streaming output
- * [x] Handle markdown, links, rich cards in chat output
- * [x] Virtual analyst chat, audit trail of sources (Implemented in StockDetailScreen)
+
+* [x] Implement Google OAuth (Moved from Firebase to Expo AuthSession, integrated with backend endpoint)
+* [x] Five-step onboarding quiz, animated UI
+* [x] Store quiz results in MongoDB
+* [x] Personalization: themes/stocks based on profile
+
+## EPIC 2: Persistent Chat & Analyst Assistant
+
+* [x] Always-on chat, context-aware per page
+* [x] Integrate chat UI with backend /rag\_query endpoint
+* [x] Qdrant retrieval and LLM streaming output
+* [x] Handle markdown, links, rich cards in chat output
+* [x] Virtual analyst chat, audit trail of sources (Implemented in StockDetailScreen)
 
 ## EPIC 3: Dynamic Theming & Curation
 
@@ -370,7 +369,7 @@ Oshan is an **AI-powered infotainment app** for Indian equity market enthusiasts
 * [ ] Carousels and badges; responsive design
 
 ## EPIC 4: Infotainment Stories & Flip Cards
- 
+
 * [x] Flip card components for news/story
 * [x] AI summarization for each story (precompute at ingest) - Implemented `llmService.generateSummary` and integrated into a new `/api/ingest-news` endpoint in `backendService.ts`.
 
@@ -400,5 +399,75 @@ Oshan is an **AI-powered infotainment app** for Indian equity market enthusiasts
 * **HTTPS:** Forced on all endpoints, HSTS headers
 * **Rate limiting:** Per-user and per-IP limits on API/LLM endpoints
 * **Data retention:** Raw JSON backups stored for 90 days by default, rotate/compress
-* **User disclosure:** App splash, About, and T\&Cs reinforce infotainment purpose
-* \*\*Audit
+* **User disclosure:** App splash, About, and T&Cs reinforce infotainment purpose
+* **Audit Trail:** All queries, API responses, and LLM prompts/responses logged for audit.
+* **Penetration Testing:** Annual external vulnerability assessment and pen-testing.
+* **Third-Party Risk:** All third-party integrations (Firebase, MongoDB Atlas) vetted for security posture.
+
+# 12. CI/CD & Automation
+
+* **GitHub Actions:**
+    * **Linting & Type Checking:** On every pull request for both `oshan-app` and `oshan-server`.
+    * **Unit & Integration Tests:** Run for relevant changes.
+    * **Bundle & Deploy (oshan-app):** Automated to EAS (Expo Application Services) on merge to `main`.
+    * **Deploy (oshan-server):** Automated to chosen cloud provider (e.g., Vercel, AWS ECS) on merge to `main`.
+* **EAS (Expo Application Services):**
+    * **OTA Updates:** Deliver instant over-the-air updates for bug fixes and minor features without app store submission.
+    * **Build Profiles:** Dedicated profiles for `development`, `preview`, and `production`.
+    * **Credentials Management:** Secure handling of push notification keys, etc.
+* **Docker:**
+    * Used for backend services to ensure consistent environments across development and production.
+    * Containerized cron jobs for data ingestion.
+* **Automated Health Checks:**
+    * Pings on critical endpoints and services integrated with monitoring (e.g., UptimeRobot, Prometheus).
+* **Developer Experience:**
+    * Pre-commit hooks (e.g., Husky) to enforce linting and formatting.
+    * `npm scripts` for common tasks (testing, building, running locally).
+
+# 13. Contributor Guide & Next Steps
+
+This project is a work in progress, and contributions are welcome!
+
+## Getting Started:
+
+1.  **Clone the repository:** `git clone https://github.com/your-org/oshan.git`
+2.  **Install dependencies:**
+    *   For `oshan-app`: `cd oshan-app && npm install`
+    *   For `oshan-server`: `cd oshan-server && npm install`
+3.  **Environment Variables:** Create `.env` files in both `oshan-app` and `oshan-server` based on their respective `.env.sample` files.
+4.  **Run Locally:**
+    *   `oshan-server`: `npm start`
+    *   `oshan-app`: `expo start` (then select your preferred device/simulator)
+
+## How to Contribute:
+
+1.  **Fork the repository** and create your feature branch (`git checkout -b feature/YourFeatureName`).
+2.  **Lint and test** your changes (`npm run lint` / `npm test`).
+3.  **Commit your changes** with descriptive commit messages (`git commit -m 'feat: Add new user profile field'`).
+4.  **Push to the branch** (`git push origin feature/YourFeatureName`).
+5.  **Create a Pull Request** against the `main` branch.
+
+## Next Steps (High-Level Roadmap):
+
+*   **Phase 1: Core MVP (Current Focus)**
+    *   Complete remaining Agile Epics (Dynamic Theming, etc.).
+    *   Refine UX based on initial user testing.
+    *   Integrate real-time news feeds beyond cron jobs.
+*   **Phase 2: Web Platform & Advanced Features**
+    *   Implement Next.js web application.
+    *   Add advanced charting options (e.g., technical indicators).
+    *   Multi-language support.
+    *   Collaborative features (share watchlists, discussion forums).
+*   **Phase 3: Community & Monetization Scale**
+    *   In-app purchase/subscription management integration.
+    *   User-generated content (moderated stock analysis, themes).
+    *   Marketplace for expert-curated themes.
+
+# 14. Appendices: Data Dictionary, API Contracts, and More
+
+*   **Data Dictionary:** See `docs/data-dictionary.md` for detailed schema definitions for MongoDB collections and Qdrant indexes.
+*   **API Contracts:** Refer to `docs/api-contracts.md` for OpenAPI/Swagger definitions of all backend endpoints, including request/response samples and error codes.
+*   **LLM Prompt Engineering Guide:** `docs/prompt-guide.md` provides best practices, common prompt templates, and evaluation criteria for AI interactions.
+*   **Design System:** `docs/design-system.md` outlines UI components, typography, color palettes, and accessibility guidelines.
+*   **Security Checklist:** `docs/security-checklist.md` details ongoing security practices and audit logs.
+*   **Legal & Disclaimers:** `docs/legal.md` covers terms of service, privacy policy, and investment disclaimers.
