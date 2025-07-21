@@ -1,0 +1,67 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+.report/
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.dylib
+*.o
+*.so
+*.a
+
+# Packages #
+############
+# tgz files
+*.tgz
+# tar files
+*.tar
+# zip files
+*.zip
+# compressed files
+*.gz
+# Other
+*.7z
+*.rar
+# vscode
+.vscode-test/
+.vscode-test-web/
+
+# Temp #
+########
+.tmp-*/
+.temp/
+
+# IDE files #
+#############
+.idea/
+.project
+.vscode/
+
+# Build #
+#########
+build/
+dist/
+node_modules/
+bower_components/
+
+# Local Environment #
+#####################
+.env
+.DS_Store
+
+# Oshan specific large files
+oshan-app/node_modules/
+oshan-server/node_modules/
+processed_zomato-ZOM_raw.json
