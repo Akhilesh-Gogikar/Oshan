@@ -5,15 +5,17 @@
   "main": "src/services/backendService.ts",
   "scripts": {
     "start": "node src/services/backendService.js",
-    "build": "echo 'No TypeScript compilation needed for JS-only backend.'",
+    "build": "tsc",
     "dev": "nodemon src/services/backendService.js"
   },
   "dependencies": {
     "@types/dotenv": "^8.2.3",
     "@types/jsonwebtoken": "^9.0.10",
+    "axios": "^1.10.0",
     "body-parser": "^1.20.2",
     "dotenv": "^17.2.0",
     "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.0.0",
     "openai": "^4.104.0"
   },

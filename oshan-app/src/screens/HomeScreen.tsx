@@ -3,17 +3,22 @@ import { View, Text, ScrollView, StyleSheet, ActivityIndicator } from 'react-nat
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { StockCard } from '../components/StockCard';
 import FlipCard from '../components/FlipCard';
-import { Theme, Stock } from '../types/models'; // Assuming Theme interface is available
-import { getThemes } from '../services/backendService'; // Import the new service function
-import { getStoredAuthData } from '../services/authService'; // Import auth service for user ID
+import { Theme, Stock, NewsArticle } from '../types/models';
+import { useTheme } from '../context/ThemeContext';
+import { getThemes } from '../services/backendService';
+import { getStoredAuthData } from '../services/authService';
+import { getStocks, getNews } from '../services/apiService'; // Import getStocks and getNews
 
 const HomeScreen = () => {
+  const { theme } = useTheme();
   const [themes, setThemes] = useState<Theme[]>([]);
+  const [trendingStocks, setTrendingStocks] = useState<Stock[]>([]);
+  const [newsStories, setNewsStories] = useState<NewsArticle[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const fetchThemes = async () => {
+    const fetchData = async () => {
       try {
         const { userId } = await getStoredAuthData();
         if (userId) {
@@ -22,111 +27,109 @@ const HomeScreen = () => {
         } else {
           setError("User not logged in or no user ID found.");
         }
+
+        const fetchedStocks = await getStocks(); // Fetch trending stocks
+        setTrendingStocks(fetchedStocks);
+
+        const fetchedNews = await getNews(); // Fetch news stories
+        setNewsStories(fetchedNews);
+
       } catch (err) {
-        console.error("Failed to fetch themes:", err);
-        setError("Failed to load personalized themes.");
+        console.error("Failed to fetch data:", err);
+        setError("Failed to load data.");
       } finally {
         setLoading(false);
       }
     };
 
-    fetchThemes();
+    fetchData();
   }, []);
 
   if (loading) {
     return (
       <SafeAreaView style={styles.container}>
-        <ActivityIndicator size="large" color="#0000ff" />
-        <Text>Loading themes...</Text>
+        <ActivityIndicator size="large" color={theme.colors.accent} />
+        <Text style={{ color: theme.colors.text }}>Loading data...</Text>
       </SafeAreaView>
     );
   }
 
   if (error) {
     return (
-      <SafeAreaView style={styles.container}>
-        <Text style={styles.errorText}>Error: {error}</Text>
+      <SafeAreaView style={[styles.container, { backgroundColor: theme.colors.background }]}>
+        <Text style={[styles.errorText, { color: theme.colors.text }]}>Error: {error}</Text>
       </SafeAreaView>
     );
   }
 
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={[styles.container, { backgroundColor: theme.colors.background }]}>
       <ScrollView>
-        <View style={styles.header}>
-          <Text style={styles.title}>Oshan</Text>
+        <View style={[styles.header, { backgroundColor: theme.colors.surface, borderBottomColor: theme.colors.border }]}>
+          <Text style={[styles.title, { color: theme.colors.primary }]}>Oshan</Text>
           {/* Main CTA banner */}
-          <View style={styles.ctaBanner}>
-            <Text style={styles.ctaText}>🎣 Catch the Big Fish</Text>
+          <View style={[styles.ctaBanner, { backgroundColor: theme.colors.secondary }]}>
+            <Text style={[styles.ctaText, { color: theme.colors.primary }]}>🎣 Catch the Big Fish</Text>
           </View>
         </View>
 
         {/* Personalized Themes */}
-        <Text style={styles.sectionTitle}>Your Themes</Text>
+        <Text style={[styles.sectionTitle, { color: theme.colors.text }]}>Your Themes</Text>
         <View style={styles.themeList}>
           {themes.length > 0 ? (
-            themes.map((theme) => (
-              <View key={theme.id} style={styles.themeCard}>
-                <Text style={styles.themeName}>{theme.name}</Text>
-                <Text style={styles.themeDescription}>{theme.description}</Text>
-                {theme.stocks && theme.stocks.length > 0 && (
-                  <Text style={styles.themeStocks}>
-                    Key Stocks: {theme.stocks.join(', ')}
+            themes.map((t) => (
+              <View key={t.id} style={[styles.themeCard, { backgroundColor: theme.colors.surface, shadowColor: theme.colors.shadow }]}>
+                <Text style={[styles.themeName, { color: theme.colors.secondary }]}>{t.name}</Text>
+                <Text style={[styles.themeDescription, { color: theme.colors.textSecondary }]}>{t.description}</Text>
+                {t.stocks && t.stocks.length > 0 && (
+                  <Text style={[styles.themeStocks, { color: theme.colors.textSecondary }]}>
+                    Key Stocks: {t.stocks.join(', ')}
                   </Text>
                 )}
-                <Text style={styles.themePerformance}>Performance: {theme.performance}% ({theme.trend})</Text>
+                <Text style={[styles.themePerformance, { color: t.trend === 'up' ? '#28a745' : '#dc3545' }]}>Performance: {t.performance}% ({t.trend})</Text>
               </View>
             ))
           ) : (
-            <Text style={styles.noThemesText}>No personalized themes found. Try adjusting your profile!</Text>
+            <Text style={[styles.noThemesText, { color: theme.colors.textSecondary }]}>No personalized themes found. Try adjusting your profile!</Text>
           )}
         </View>
 
         {/* Trending Now */}
-        <Text style={styles.sectionTitle}>Trending Now</Text>
+        <Text style={[styles.sectionTitle, { color: theme.colors.text }]}>Trending Now</Text>
         <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.stockCardScroll}>
-          {/* Placeholder StockCards */}
-          <StockCard stock={{ sid: '1', symbol: 'MSFT', name: 'Microsoft', currentPrice: 0, previousClose: 0, exchange: 'NASDAQ', sector: 'Technology' }} onPress={() => {}}/>
-          <StockCard stock={{ sid: '2', symbol: 'AAPL', name: 'Apple', currentPrice: 0, previousClose: 0, exchange: 'NASDAQ', sector: 'Technology' }} onPress={() => {}}/>
-          <StockCard stock={{ sid: '3', symbol: 'GOOG', name: 'Google', currentPrice: 0, previousClose: 0, exchange: 'NASDAQ', sector: 'Technology' }} onPress={() => {}}/>
+          {trendingStocks.length > 0 ? (
+            trendingStocks.map((stock) => (
+              <StockCard key={stock.sid} stock={stock} onPress={() => { /* Navigate to StockDetailScreen */ }} />
+            ))
+          ) : (
+            <Text style={[styles.noDataText, { color: theme.colors.textSecondary }]}>No trending stocks available.</Text>
+          )}
         </ScrollView>
 
         {/* Flip Cards for News/Stories */}
-        <Text style={styles.sectionTitle}>Today's Stories</Text>
+        <Text style={[styles.sectionTitle, { color: theme.colors.text }]}>Today's Stories</Text>
         <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.flipCardScroll}>
-          <FlipCard
-            frontContent={
-              <View style={styles.flipCardContent}>
-                <Text style={styles.flipCardTitle}>Why IT's Hot</Text>
-                <Text style={styles.flipCardText}>Tap to learn more</Text>
-              </View>
-            }
-            backContent={
-              <View style={styles.flipCardContent}>
-                <Text style={styles.flipCardTitle}>IT Sector Surges</Text>
-                <Text style={styles.flipCardText}>
-                  The information technology sector is experiencing a significant boom due to increased digital transformation initiatives across industries.
-                </Text>
-              </View>
-            }
-          />
-          {/* Add more FlipCard components as needed for actual news/stories */}
-          <FlipCard
-            frontContent={
-              <View style={styles.flipCardContent}>
-                <Text style={styles.flipCardTitle}>Green Energy</Text>
-                <Text style={styles.flipCardText}>Explore opportunities</Text>
-              </View>
-            }
-            backContent={
-              <View style={styles.flipCardContent}>
-                <Text style={styles.flipCardTitle}>Sustainable Growth</Text>
-                <Text style={styles.flipCardText}>
-                  Investments in renewable energy sources are rapidly increasing, driven by global sustainability goals and supportive government policies.
-                </Text>
-              </View>
-            }
-          />
+          {newsStories.length > 0 ? (
+            newsStories.map((article) => (
+              <FlipCard
+                key={article.sid}
+                frontContent={
+                  <View style={[styles.flipCardContent, { backgroundColor: theme.colors.surface }]}>
+                    <Text style={[styles.flipCardTitle, { color: theme.colors.primary }]}>{article.headline}</Text>
+                    <Text style={[styles.flipCardText, { color: theme.colors.textSecondary }]}>Tap to learn more</Text>
+                  </View>
+                }
+                backContent={
+                  <View style={[styles.flipCardContent, { backgroundColor: theme.colors.surface }]}>
+                    <Text style={[styles.flipCardTitle, { color: theme.colors.primary }]}>{article.headline}</Text>
+                    <Text style={[styles.flipCardText, { color: theme.colors.textSecondary }]}>{article.summary}</Text>
+                  </View>
+                }
+              />
+            ))
+          ) : (
+            <Text style={[styles.noDataText, { color: theme.colors.textSecondary }]}>No news stories available.</Text>
+          )}
         </ScrollView>
       </ScrollView>
     </SafeAreaView>
@@ -246,6 +249,13 @@ const styles = StyleSheet.create({
     marginLeft: 16,
     marginBottom: 10,
     marginTop: 20,
+  },
+  noDataText: {
+    fontSize: 16,
+    color: '#888',
+    textAlign: 'center',
+    marginTop: 20,
+    width: '100%',
   },
 });
 

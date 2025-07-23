@@ -2,11 +2,10 @@ import { AppRegistry } from 'react-native';
 import App from '../App';
 import { Platform } from 'react-native';
 
-// Set app name
-AppRegistry.registerComponent('main', () => App);
-
 // Web-specific setup
 if (Platform.OS === 'web') {
+  // Set app name
+  AppRegistry.registerComponent('main', () => App);
   const rootTag = document.getElementById('root');
   AppRegistry.runApplication('main', { rootTag });
   

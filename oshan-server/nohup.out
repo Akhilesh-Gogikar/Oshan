@@ -1,0 +1,2218 @@
+
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+
+> oshan-server@1.0.0 dev
+> nodemon src/services/backendService.js
+
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting child process[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting child process[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+(node:47022) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [Bus]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+(node:64470) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [Bus]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:2:17)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:2:17)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:2:17)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:2:17)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:2:17)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:5:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+
+Node.js v20.13.1
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module './llmService'
+Require stack:
+- /Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js'
+  ]
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[dotenv@17.2.0] injecting env (11) from .env (tip: ⚙️  enable debug logging with { debug: true })
+[dotenv@17.2.0] injecting env (11) from .env (tip: ⚙️  suppress all logs with { quiet: true })
+[dotenv@17.2.0] injecting env (11) from .env (tip: ⚙️  override existing env vars with { override: true })
+[dotenv@17.2.0] injecting env (11) from .env (tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] })
+[dotenv@17.2.0] injecting env (11) from .env (tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit)
+Server running on port 5000
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Function.listen (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:147:5)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1925:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.13.1
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Function.listen (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:147:5)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1925:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.13.1
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Function.listen (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:147:5)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1925:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Function.listen (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:147:5)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1925:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+MongoDB Connection Error: MongoServerError: bad auth : authentication failed
+    at Connection.sendCommand (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Connection.command (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/connection.js:333:26)
+    at async continueScramConversation (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/auth/scram.js:131:15)
+    at async executeScram (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/auth/scram.js:80:5)
+    at async ScramSHA1.auth (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/auth/scram.js:39:16)
+    at async performInitialHandshake (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/connect.js:104:13)
+    at async connect (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/connect.js:24:9) {
+  errorLabelSet: Set(2) { 'HandshakeError', 'ResetPool' },
+  errorResponse: {
+    ok: 0,
+    errmsg: 'bad auth : authentication failed',
+    code: 8000,
+    codeName: 'AtlasError'
+  },
+  ok: 0,
+  code: 8000,
+  codeName: 'AtlasError',
+  connectionGeneration: 0
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[dotenv@17.2.0] injecting env (11) from .env (tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] })
+[dotenv@17.2.0] injecting env (11) from .env (tip: 🔐 encrypt with dotenvx: https://dotenvx.com)
+[dotenv@17.2.0] injecting env (11) from .env (tip: ⚙️  suppress all logs with { quiet: true })
+[dotenv@17.2.0] injecting env (11) from .env (tip: 🔐 encrypt with dotenvx: https://dotenvx.com)
+[dotenv@17.2.0] injecting env (11) from .env (tip: ⚙️  override existing env vars with { override: true })
+Server running on port 5000
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Function.listen (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:147:5)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1925:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.13.1
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Function.listen (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:147:5)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1925:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.13.1
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Function.listen (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:147:5)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1925:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.13.1
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Function.listen (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:147:5)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1925:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+MongoDB Connection Error: MongoServerError: bad auth : authentication failed
+    at Connection.sendCommand (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Connection.command (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/connection.js:333:26)
+    at async continueScramConversation (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/auth/scram.js:131:15)
+    at async executeScram (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/auth/scram.js:80:5)
+    at async ScramSHA1.auth (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/auth/scram.js:39:16)
+    at async performInitialHandshake (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/connect.js:104:13)
+    at async connect (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/connect.js:24:9) {
+  errorLabelSet: Set(2) { 'HandshakeError', 'ResetPool' },
+  errorResponse: {
+    ok: 0,
+    errmsg: 'bad auth : authentication failed',
+    code: 8000,
+    codeName: 'AtlasError'
+  },
+  ok: 0,
+  code: 8000,
+  codeName: 'AtlasError',
+  connectionGeneration: 0
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[32m[nodemon] starting `node src/services/backendService.js`[39m
+[dotenv@17.2.0] injecting env (11) from .env (tip: ⚙️  override existing env vars with { override: true })
+[dotenv@17.2.0] injecting env (11) from .env (tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit)
+[dotenv@17.2.0] injecting env (11) from .env (tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] })
+[dotenv@17.2.0] injecting env (11) from .env (tip: ⚙️  write to custom object with { processEnv: myObject })
+[dotenv@17.2.0] injecting env (11) from .env (tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`)
+Server running on port 5000
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Function.listen (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:147:5)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1925:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.13.1
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Function.listen (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:147:5)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1925:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.13.1
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Function.listen (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:147:5)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1925:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Function.listen (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/Users/akhileshgogikar/Oshan/oshan-server/src/services/backendService.js:147:5)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1925:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v20.13.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+MongoDB Connection Error: MongoServerError: bad auth : authentication failed
+    at Connection.sendCommand (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/connection.js:305:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Connection.command (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/connection.js:333:26)
+    at async continueScramConversation (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/auth/scram.js:131:15)
+    at async executeScram (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/auth/scram.js:80:5)
+    at async ScramSHA1.auth (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/auth/scram.js:39:16)
+    at async performInitialHandshake (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/connect.js:104:13)
+    at async connect (/Users/akhileshgogikar/Oshan/oshan-server/node_modules/mongodb/lib/cmap/connect.js:24:9) {
+  errorLabelSet: Set(2) { 'HandshakeError', 'ResetPool' },
+  errorResponse: {
+    ok: 0,
+    errmsg: 'bad auth : authentication failed',
+    code: 8000,
+    codeName: 'AtlasError'
+  },
+  ok: 0,
+  code: 8000,
+  codeName: 'AtlasError',
+  connectionGeneration: 0
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m

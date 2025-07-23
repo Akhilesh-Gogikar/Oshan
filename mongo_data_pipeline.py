@@ -4,6 +4,10 @@ import pymongo
 from pymongo import InsertOne, UpdateOne
 from pymongo.errors import BulkWriteError
 from datetime import datetime
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # MongoDB configuration
 MONGODB_URI = "mongodb+srv://oshanadmin:oshanadmin@cluster0.df9xk0u.mongodb.net/Cluster0?retryWrites=true&w=majority&appName=Cluster0"
@@ -55,7 +59,7 @@ def process_json_file(filepath):
                 try:
                     news_date_obj = datetime.fromisoformat(news_date_str.replace('Z', '+00:00'))
                 except ValueError:
-                    print(f"Warning: Could not parse news_date '{news_date_str}' for sid {sid}")
+                    logging.warning(f"Could not parse news_date '{news_date_str}' for sid {sid}")
 
             # Prepare stock document
             stock_info = record.get("data_before_date", {}).get("securityInfo", {}).get("info", {})
@@ -96,7 +100,7 @@ def process_json_file(filepath):
                     try:
                         holding_date_obj = datetime.fromisoformat(holding_date_str.replace('Z', '+00:00'))
                     except ValueError:
-                        print(f"Warning: Could not parse holding date '{holding_date_str}' for sid {sid}")
+                        logging.warning(f"Could not parse holding date '{holding_date_str}' for sid {sid}")
                 
                 # Ensure the query part also uses the parsed object or handles None correctly
                 query_date = holding_date_obj if holding_date_obj else holding_date_str # Fallback to original string if parsing failed, or handle as None
@@ -130,7 +134,7 @@ def process_json_file(filepath):
             try:
                 news_date_obj = datetime.fromisoformat(news_date_str.replace('Z', '+00:00'))
             except ValueError:
-                print(f"Warning: Could not parse news_date '{news_date_str}' for sid {sid}")
+                logging.warning(f"Could not parse news_date '{news_date_str}' for sid {sid}")
 
         # Prepare stock document
         stock_info = raw_data.get("data_before_date", {}).get("securityInfo", {}).get("info", {})
@@ -171,7 +175,7 @@ def process_json_file(filepath):
                 try:
                     holding_date_obj = datetime.fromisoformat(holding_date_str.replace('Z', '+00:00'))
                 except ValueError:
-                    print(f"Warning: Could not parse holding date '{holding_date_str}' for sid {sid}")
+                    logging.warning(f"Could not parse holding date '{holding_date_str}' for sid {sid}")
             
             query_date = holding_date_obj if holding_date_obj else holding_date_str
             if not query_date:
@@ -194,7 +198,7 @@ def process_json_file(filepath):
             {"$set": {"raw_json": raw_data}}, upsert=True))
 
     else:
-        print(f"Unexpected data format in {filepath}")
+        logging.error(f"Unexpected data format in {filepath}")
         return None # Indicate failure or no operations
 
     return all_operations
@@ -204,9 +208,9 @@ def bulk_write_docs(collection_name, operations):
     if operations:
         try:
             result = db[collection_name].bulk_write(operations, ordered=False)
-            print(f"Bulk write to {collection_name} successful: {result.bulk_api_result}")
+            logging.info(f"Bulk write to {collection_name} successful: {result.bulk_api_result}")
         except BulkWriteError as bwe:
-            print(f"Bulk write error in {collection_name}: {bwe.details}")
+            logging.error(f"Bulk write error in {collection_name}: {bwe.details}")
 
 if __name__ == "__main__":
     json_filepath = "processed_zomato-ZOM_raw.json"
@@ -220,6 +224,6 @@ if __name__ == "__main__":
                 bulk_write_docs(collection_name, ops)
 
     except FileNotFoundError:
-        print(f"Error: File not found at {json_filepath}")
+        logging.error(f"File not found at {json_filepath}")
     except Exception as e:
-        print(f"An error occurred: {e}")
+        logging.error(f"An error occurred: {e}", exc_info=True)

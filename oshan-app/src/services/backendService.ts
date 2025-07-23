@@ -1,4 +1,4 @@
-import backendApi from './apiService';
+import apiService from './apiService';
 import { Theme, ChatMessage  as ClientChatMessage } from '../types/models'; // Import ChatMessage as ClientChatMessage
 import { AxiosError } from 'axios';
 
@@ -10,7 +10,7 @@ interface BackendChatMessage {
 
 export const storeQuizResults = async (answers: object) => {
   try {
-    const response = await backendApi.post('/profile', answers);
+    const response = await apiService.post('/profile', answers);
     console.log("Quiz results stored:", response.data);
     return response.data;
   } catch (error) {
@@ -21,7 +21,7 @@ export const storeQuizResults = async (answers: object) => {
 
 export const getProfile = async (userId: string) => {
   try {
-    const response = await backendApi.get(`/profile/${userId}`);
+    const response = await apiService.get(`/profile/${userId}`);
     return response.data;
   } catch (error) {
     console.error("Error fetching user profile:", error);
@@ -35,7 +35,7 @@ export const getProfile = async (userId: string) => {
 
 export const getThemes = async (userId: string): Promise<Theme[]> => {
   try {
-    const response = await backendApi.get(`/themes/${userId}`);
+    const response = await apiService.get(`/themes/${userId}`);
     return response.data;
   } catch (error) {
     console.error("Error fetching themes:", error);
@@ -48,7 +48,7 @@ export const getThemes = async (userId: string): Promise<Theme[]> => {
 
 export const getStockReport = async (stockId: string): Promise<string> => {
   try {
-    const response = await backendApi.post('/report', { stockId });
+    const response = await apiService.post('/report', { stockId });
     return response.data; // Expecting markdown string
   } catch (error) {
     console.error("Error fetching stock report:", error);
@@ -58,7 +58,7 @@ export const getStockReport = async (stockId: string): Promise<string> => {
 
 export const sendChatMessage = async (messages: BackendChatMessage[]) => {
   try {
-    const response = await backendApi.post('/chat', { messages });
+    const response = await apiService.post('/chat', { messages });
     return response.data;
   } catch (error) {
     console.error("Error sending chat message:", error);

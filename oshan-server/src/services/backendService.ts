@@ -1,4 +1,5 @@
 import express, { Request, Response } from 'express';
+import path from 'path';
 import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
 import jwt from 'jsonwebtoken';
@@ -11,13 +12,23 @@ import { authenticate } from '../middleware/auth';
 const app = express();
 app.use(bodyParser.json());
 
+// Serve static files from the oshan-app/dist directory
+app.use(express.static(path.join(__dirname, '..', '..', 'oshan-app', 'dist')));
+
+// Wildcard route to serve index.html for all other requests (SPA client-side routing)
+app.get('*', (req: Request, res: Response) => {
+  res.sendFile(path.join(__dirname, '..', '..', 'oshan-app', 'dist', 'index.html'));
+});
+
 // MongoDB Connection
 const connectDB = async () => {
   try {
+    console.log('Attempting to connect to MongoDB with URI:', process.env.MONGODB_URI ? process.env.MONGODB_URI.substring(0, 20) + '...' : 'URI not found');
     await mongoose.connect(process.env.MONGODB_URI!);
     console.log('MongoDB Connected');
-  } catch (error) {
-    console.error('MongoDB Connection Error:', error);
+  } catch (error: any) {
+    console.error('MongoDB Connection Error:', error.message);
+    console.error('Error details:', error);
     process.exit(1);
   }
 };
@@ -146,6 +157,16 @@ connectDB(); // Ensure DB connection is initiated before app listens
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
+});
+
+app.on('error', (error: any) => {
+  if (error.code === 'EADDRINUSE') {
+    console.error(`Error: Port ${PORT} is already in use.`);
+    console.error('Please ensure no other instances of the server or other applications are running on this port.');
+  } else {
+    console.error('Failed to start server:', error.message);
+  }
+  process.exit(1);
 });
 
 // POST endpoint for ingesting and summarizing news articles

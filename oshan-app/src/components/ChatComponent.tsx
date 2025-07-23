@@ -1,8 +1,20 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { View, Text, TextInput, TouchableOpacity, ScrollView, StyleSheet, KeyboardAvoidingView, Platform, ActivityIndicator } from 'react-native';
-import { Ionicons } from '@expo/vector-icons'; // Assuming Expo for icons
+import { View, Text, TextInput, TouchableOpacity, ScrollView, Dimensions, KeyboardAvoidingView, Platform, ActivityIndicator } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
+import { styled, useColorScheme } from 'nativewind';
+import { useTheme } from '../context/ThemeContext';
 import { sendChatMessage } from '../services/backendService';
 import { ChatMessage, ChatResponse } from '../types/models';
+
+const StyledView = styled(View);
+const StyledText = styled(Text);
+const StyledTextInput = styled(TextInput);
+const StyledTouchableOpacity = styled(TouchableOpacity);
+const StyledActivityIndicator = styled(ActivityIndicator);
+
+// Get screen width for responsive adjustments
+const { width: screenWidth } = Dimensions.get('window');
+const isSmallScreen = screenWidth < 768; // Tailwind's 'md' breakpoint is 768px
 
 interface ChatComponentProps {
   initialMessages?: ChatMessage[];
@@ -14,6 +26,9 @@ const ChatComponent: React.FC<ChatComponentProps> = ({ initialMessages = [], con
   const [inputText, setInputText] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const scrollViewRef = useRef<ScrollView>(null);
+
+  const {colorScheme} = useColorScheme();
+  const {theme} = useTheme();
 
   useEffect(() => {
     // Scroll to the bottom when messages change
@@ -89,135 +104,69 @@ const ChatComponent: React.FC<ChatComponentProps> = ({ initialMessages = [], con
   };
 
   return (
-    <KeyboardAvoidingView 
-      style={styles.container}
+    <KeyboardAvoidingView
+      className="flex-1 bg-gray-100 dark:bg-zinc-900"
       behavior={Platform.OS === "ios" ? "padding" : "height"}
-      keyboardVerticalOffset={Platform.OS === "ios" ? 90 : 0} // Adjust this offset as needed
+      keyboardVerticalOffset={Platform.OS === "ios" ? 90 : 0}
     >
-      <ScrollView 
-        ref={scrollViewRef} 
-        contentContainerStyle={styles.messagesContainer}
+      <ScrollView
+        ref={scrollViewRef}
+        contentContainerStyle={{padding: 8, paddingBottom: 20}} // Using inline style as contentContainerClassName is not working with tw
         onContentSizeChange={() => scrollViewRef.current?.scrollToEnd({ animated: true })}
       >
         {messages.map((msg, index) => (
-          <View key={index} style={[
-            styles.messageBubble,
-            msg.sender === 'user' ? styles.userMessage : styles.assistantMessage,
-          ]}>
-            <Text style={msg.sender === 'user' ? styles.userText : styles.assistantText}>
+          <StyledView
+            key={index}
+            className={`p-3 rounded-xl m-1 ${
+              msg.sender === 'user'
+                ? 'self-end bg-blue-500 dark:bg-blue-700'
+                : 'self-start bg-gray-300 dark:bg-zinc-700'
+            } shadow-md shadow-black/20 ${
+              Platform.OS === 'web' && isSmallScreen ? 'max-w-full' : 'max-w-[80%]'
+            }`}
+          >
+            <StyledText
+              className={`${
+                msg.sender === 'user'
+                  ? 'text-white'
+                  : 'text-gray-900 dark:text-gray-100'
+              } text-base`}
+            >
               {msg.message}
-            </Text>
-          </View>
+            </StyledText>
+          </StyledView>
         ))}
         {isLoading && (
-          <View style={styles.loadingContainer}>
-            <ActivityIndicator size="small" color="#007AFF" />
-            <Text style={styles.loadingText}>Thinking...</Text>
-          </View>
+          <StyledView className="flex-row items-center p-2 self-start bg-gray-300 dark:bg-zinc-700 rounded-xl m-1">
+            <StyledActivityIndicator size="small" color={colorScheme === 'dark' ? theme.colors.primary : "#007AFF"} />
+            <StyledText className="ml-2 text-gray-900 dark:text-gray-100">Thinking...</StyledText>
+          </StyledView>
         )}
       </ScrollView>
 
-      <View style={styles.inputContainer}>
-        <TextInput
-          style={styles.textInput}
+      <StyledView className="flex-row p-3 border-t border-gray-300 dark:border-zinc-700 bg-white dark:bg-zinc-800 items-center">
+        <StyledTextInput
+          className="flex-1 border border-gray-400 dark:border-zinc-600 rounded-3xl px-4 py-3 mr-3 text-base text-gray-900 dark:text-gray-100 max-h-30"
           value={inputText}
           onChangeText={setInputText}
           placeholder="Ask Oshan anything..."
-          placeholderTextColor="#999"
+          placeholderTextColor={colorScheme === 'dark' ? "#a1a1aa" : "#999"}
           multiline
         />
-        <TouchableOpacity 
-          style={styles.sendButton} 
-          onPress={handleSendMessage} 
+        <StyledTouchableOpacity
+          className="bg-blue-500 dark:bg-blue-700 rounded-3xl w-12 h-12 justify-center items-center"
+          onPress={handleSendMessage}
           disabled={isLoading || inputText.trim().length === 0}
         >
           {isLoading ? (
-            <ActivityIndicator size="small" color="#fff" />
+            <StyledActivityIndicator size="small" color="#fff" />
           ) : (
             <Ionicons name="send" size={24} color="#fff" />
           )}
-        </TouchableOpacity>
-      </View>
+        </StyledTouchableOpacity>
+      </StyledView>
     </KeyboardAvoidingView>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#f5f5f5',
-  },
-  messagesContainer: {
-    padding: 10,
-    paddingBottom: 20, // Add some bottom padding
-  },
-  messageBubble: {
-    padding: 12,
-    borderRadius: 20,
-    marginVertical: 5,
-    maxWidth: '80%',
-    elevation: 1, // Shadow for Android
-    shadowColor: '#000', // Shadow for iOS
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.22,
-    shadowRadius: 2.22,
-  },
-  userMessage: {
-    alignSelf: 'flex-end',
-    backgroundColor: '#007AFF',
-  },
-  assistantMessage: {
-    alignSelf: 'flex-start',
-    backgroundColor: '#e0e0e0',
-  },
-  userText: {
-    color: '#fff',
-    fontSize: 16,
-  },
-  assistantText: {
-    color: '#333',
-    fontSize: 16,
-  },
-  inputContainer: {
-    flexDirection: 'row',
-    padding: 10,
-    borderTopWidth: 1,
-    borderTopColor: '#ddd',
-    backgroundColor: '#fff',
-    alignItems: 'center',
-  },
-  textInput: {
-    flex: 1,
-    borderColor: '#ccc',
-    borderWidth: 1,
-    borderRadius: 25,
-    paddingHorizontal: 15,
-    paddingVertical: 10,
-    marginRight: 10,
-    fontSize: 16,
-    maxHeight: 120, // Limit height for multiline input
-  },
-  sendButton: {
-    backgroundColor: '#007AFF',
-    borderRadius: 25,
-    width: 50,
-    height: 50,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  loadingContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    padding: 10,
-    alignSelf: 'flex-start',
-    backgroundColor: '#e0e0e0',
-    borderRadius: 20,
-    marginVertical: 5,
-  },
-  loadingText: {
-    marginLeft: 10,
-    color: '#333',
-  },
-});
 
 export default ChatComponent;

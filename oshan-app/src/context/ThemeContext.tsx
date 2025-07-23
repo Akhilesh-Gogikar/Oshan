@@ -11,6 +11,7 @@ interface Theme {
     text: string;
     textSecondary: string;
     border: string;
+    shadow: string; // Add shadow to theme colors
   };
   fonts: {
     serif: string;
@@ -35,6 +36,7 @@ const lightTheme: Theme = {
     text: '#1a1a1a',
     textSecondary: '#6b7280',
     border: '#e5e7eb',
+    shadow: '#000000', // Default light shadow
   },
   fonts: {
     serif: 'PlayfairDisplay-Regular',
@@ -59,6 +61,7 @@ const darkTheme: Theme = {
     text: '#ffffff',
     textSecondary: '#a1a1aa',
     border: '#27272a',
+    shadow: '#FFFFFF', // Default dark shadow
   },
   fonts: {
     serif: 'PlayfairDisplay-Regular',
