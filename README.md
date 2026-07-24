@@ -2,6 +2,12 @@
 
 > **Catch the Big Fish – Discover Indian stocks that match your values and style through AI-native infotainment.**
 
+## Repository Quick Look
+
+This repository contains the Expo/React Native mobile client in `oshan-app/`, the Node/Express backend in `oshan-server/`, and a MongoDB stock-data loader in `mongo_data_pipeline.py`.
+
+Use it to evaluate an AI-native Indian equities discovery flow: Firebase sign-in, onboarding quiz, personalized stock themes, stock detail pages, analyst chat, and markdown stock reports generated through OpenRouter.
+
 ---
 
 # Table of Contents
