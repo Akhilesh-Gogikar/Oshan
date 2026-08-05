@@ -1,6 +1,22 @@
 {
   "name": "oshan-app",
   "version": "1.0.0",
+  "description": "Expo and React Native mobile client for Indian stock discovery, onboarding, chat, and report flows.",
+  "keywords": [
+    "expo",
+    "react-native",
+    "firebase",
+    "indian-stocks",
+    "equity-research",
+    "stock-discovery",
+    "mobile-app",
+    "openrouter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akhilesh-Gogikar/Oshan.git",
+    "directory": "oshan-app"
+  },
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",

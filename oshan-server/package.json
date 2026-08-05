@@ -1,7 +1,22 @@
 {
   "name": "oshan-server",
   "version": "1.0.0",
-  "description": "Backend service for Oshan stock trading app",
+  "description": "Express and MongoDB API for Oshan stock discovery, profile, chat, and report flows.",
+  "keywords": [
+    "express",
+    "mongodb",
+    "mongoose",
+    "openrouter",
+    "indian-stocks",
+    "equity-research",
+    "stock-reports",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akhilesh-Gogikar/Oshan.git",
+    "directory": "oshan-server"
+  },
   "main": "src/services/backendService.ts",
   "scripts": {
     "start": "node src/services/backendService.js",
